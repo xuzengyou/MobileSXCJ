@@ -1,0 +1,16 @@
+.w{
+    width: 7.5rem;
+}
+header{
+    width: 7.5rem;
+    display: flex;
+}
+header a:nth-child(1){
+    width: 2.9rem;
+    height: 0.42rem;
+    flex-shrink: 0;
+}
+header a:nth-child(1) img{
+    width: 100%;
+    height: 100%;
+}
