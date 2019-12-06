@@ -6,11 +6,185 @@ header{
     display: flex;
 }
 header a:nth-child(1){
-    width: 2.9rem;
-    height: 0.42rem;
+    width: 1.8rem;
+    height: 0.4rem;
     flex-shrink: 0;
 }
 header a:nth-child(1) img{
     width: 100%;
     height: 100%;
 }
+header a:nth-child(1){
+    margin-right: 4.7rem;
+}
+header a:nth-child(2){
+    display: inline-block;
+    width: 0.3rem;
+    height: 0.4rem;
+    background-image: url(../img/tpjh.png);
+    background-repeat: no-repeat;
+    background-position: -0.15rem -0.02rem;
+    
+}
+header a:nth-child(3){
+    display: inline-block;
+    border-left: 0.02rem solid #0571C5;
+    width: 0.45rem;
+    height: 0.25rem;
+    background-image: url(../img/tpjh.png);
+    background-repeat: no-repeat;
+    background-position: -0.4rem -0.12rem;
+    vertical-align: middle;
+    margin-top: 0.1rem;
+    margin-left: 0.06rem;
+}
+/* 搜索框 */
+.search{
+    width: 100%;
+    height: 0.5rem;
+    /* line-height: 0.5rem; */
+    background-color: #000000;
+    opacity: .6;
+    padding-top: 0.05rem;
+}
+.search .one{
+    width: 96%;
+    height: 0.4rem;
+    line-height: 0.4rem;
+    margin:0 auto;
+    border: 0.01rem solid #ffffff;
+    vertical-align: middle;
+    overflow: hidden;
+}
+.search .one input{
+    background-color: #000000;
+    font-size: 16px;
+    padding-left: 0.1rem;
+    display: inline-block;
+    vertical-align: middle;
+    width: 5rem;
+    height: 100%;
+}
+.search .one span{
+    display: inline-block;
+    width: 0.3rem;
+    height: 100%;
+    background-image: url(../img/tpjh.png);
+    background-repeat: no-repeat;
+    background-position: -0.15rem -0.05rem;
+    vertical-align: middle;
+    margin-left: 1.8rem;
+    cursor: pointer;
+}
+/* 主体部分开始 */
+.main{
+    width: 100%;
+    margin-top: 0.4rem;
+}
+.main .sliders{
+    width: 100%;
+    height: 4rem;
+}
+
+/* 轮播图引入部分 */
+.img a:first-child{
+    position: absolute;
+    display: inline-block;
+    color: #fff;
+    width: 2.38rem;
+    height: 0.44rem;
+    font-size: 16px;
+    overflow: hidden;
+    text-overflow:ellipsis;
+    white-space: normal;
+    margin-top: 1.05rem;
+    margin-left: 0.2rem;
+}
+.img a:last-child{
+    display: inline-block;
+    width: 2.7rem;
+    height: 1.8rem;
+    overflow: hidden;
+}
+.img a:last-child img{
+    display: inline-block;
+    width: 2.7rem;
+    height: 1.8rem;
+    overflow: hidden;
+}
+.flexslider{
+    position:relative;
+    width: 2.7rem;
+    height: 1.8rem;
+    overflow:hidden;zoom:1;
+}
+.flex-viewport{
+    max-height:2000px;
+    -webkit-transition:all 1s ease;
+    -moz-transition:all 1s ease;
+    transition:all 1s ease;
+}
+.flexslider .slides{
+    zoom:1;
+}
+.flex-direction-nav a{
+    width:0.6rem;
+    height:0.9rem;
+    line-height:99em;
+    overflow:hidden;
+    margin:-0.6rem 0 0;
+    display:block;
+    background:url(http://img.10xunc.com/备用件/img/ad_ctr.png) no-repeat;
+    position:absolute;
+    top:55%;
+    z-index:10;
+    cursor:pointer;
+    opacity:0;
+    filter:alpha(opacity=0);
+    -webkit-transition:all .3s ease;
+}
+.flex-direction-nav .flex-next{
+    background-position:0 -90px;
+    right:0;
+}
+.flex-direction-nav .flex-prev{
+    left:0;
+}
+.flexslider:hover .flex-next{
+    opacity:0.8;
+    filter:alpha(opacity=25);
+}
+.flexslider:hover .flex-prev{
+    opacity:0.8;
+    filter:alpha(opacity=25);
+}
+.flexslider:hover .flex-next:hover, .flexslider:hover .flex-prev:hover{
+    opacity:1;
+    filter:alpha(opacity=50);
+}
+.flex-control-nav{
+    width:100%;
+    position:absolute;
+    bottom:0.1rem;
+    text-align:center;
+}
+.flex-control-nav li{
+    margin:0 0.5rem;
+    display:inline-block;
+    zoom:1;
+    *display:inline;
+}
+.flex-control-paging li a{
+    background:url(http://img.10xunc.com/备用件/img/dot.png) no-repeat 0 -0.16rem;
+    display:block;
+    height:0.16rem;
+    overflow:hidden;
+    text-indent:-99em;
+    width:0.16rem;
+    cursor:pointer;
+}
+.flex-control-paging li a.flex-active{
+    background-position:0 0;
+}
+
+/* 轮播图引入结束 */
