@@ -2,13 +2,14 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport"
-        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0,user-scalable=no">
+    <!-- <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" /> -->
+    <meta name="viewport" content="width=320,minimum-scale=0.5, maximum-scale=5, user-scalable=no">
     <title>10讯财经</title>
-    <meta name="robots" content="all" />
     <meta name="keywords" content="10讯财经,股票,外汇,基金,黄金,财经评论,新股,港股。" />
     <meta name="description" content="10讯财经网,做专业财经资讯领跑者，实时股票行情，提供宏观、股票、外汇等财经领域的报道；讯息快、内容全、角度丰富并怀有全球视野。" />
+    
     <link rel="shortcut icon" href="http://img.10xunc.com/备用件/css/favicon.ico" type="image/x-icon">
+    <script src="./js/common.js"></script>
     <link rel="stylesheet" href="./css/common.css">
     <link rel="stylesheet" href="./css/index.css">
     <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css">
@@ -30,7 +31,7 @@
         </header>
         <div class="search yinc">
             <div class="one">
-                <input type="text" name="" id="search" placeholder="请输入关键字" autofocus>
+                <input type="text" name="" id="search" placeholder="请输入关键字" autofocus style="color: #fff;">
                 <img src="./img/search1.png" alt="">
             </div>
         </div>
@@ -40,11 +41,17 @@
                 <div class="swiper-container">
                     <div class="swiper-wrapper">
                         <div class="swiper-slide">
-                          <a href=""><img src="./img/test.jpg" alt="" style="width: 100%;"></a>
-                          <a href="">nihao</a>
+                            <a href=""><img src="./img/test.jpg" alt=""></a>
+                            <a href="">我是第一张我是第一张我是第一张我是第一张我是第一张我是第一张我是第一张</a>
                         </div>
-                        <div class="swiper-slide"><a href=""><img src="./img/test.jpg" alt="" style="width: 100%;"></a></div>
-                        <div class="swiper-slide"><a href=""><img src="./img/test.jpg" alt="" style="width: 100%;"></a></div>
+                        <div class="swiper-slide">
+                            <a href=""><img src="./img/test.jpg" alt=""></a>
+                            <a href="">我是第二张</a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href=""><img src="./img/test.jpg" alt=""></a>
+                            <a href="">我是第三张</a>
+                        </div>
                     </div>
                     <!-- 如果需要分页器 -->
                     <div class="swiper-pagination"></div>
@@ -150,15 +157,15 @@
             <!-- 侧边导航栏 -->
             <div class="side">
                 <div class="Navigation">
-                    <a href=""><img src="./img/nav.png" alt=""></a>
+                    <a href=""><img src="./img/side1.png" alt=""></a>
                     <a href="">导航</a>
                 </div>
                 <div class="home">
-                    <a href=""><img src="./img/nav.png" alt=""></a>
+                    <a href=""><img src="./img/side2.png" alt=""></a>
                     <a href="">首页</a>
                 </div>
                 <div class="top">
-                    <a href=""><img src="./img/nav.png" alt=""></a>
+                    <a href=""><img src="./img/side3.png" alt=""></a>
                     <a href="">置顶</a>
                 </div>
             </div>
@@ -172,7 +179,7 @@
 </body>
 
 <script type="text/javascript" src="http://img.10xunc.com/备用件/js/jquery-3.3.1.min.js"></script>
-<script src="./js/common.js"></script>
+
 <script src="./js/index.js"></script>
 <script>        
     var mySwiper = new Swiper ('.swiper-container', {
