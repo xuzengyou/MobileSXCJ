@@ -1,5 +1,9 @@
 
+body{
+    font-size: 0.14rem;
+}
 header{
+    /* width: 7.5rem; */
     margin-top: 0.05rem;
     height: 0.4rem;
     line-height: 0.4rem;
@@ -108,32 +112,36 @@ div.yinc{
 .main{
     margin-top: 0.1rem;
 }
-/* 轮播设置 */
-.swiper-container{
+/* 搜索结果设置 */
+.results{
     width: 100%;
-    height: 3rem;
+    display: flex;
 }
-.swiper-slide a:first-child img{
-    width: 100%;
+.results span:nth-child(1){
+    width: 3.1rem;
+    height: 0;
+    border-top: 0.01rem solid #cccccc;
+    vertical-align: bottom;
+    margin-top: 0.1rem;
 }
-.swiper-slide a:last-child{
-    display: inline-block;
-    width: 5rem;
-    height: 0.2rem;
-    line-height: 0.2rem;
+.results span:nth-child(2){
+    width: 1.3rem;
     font-size: 0.18rem;
-    position: absolute;
-    top: 2.4rem;
-    left: 1.2rem;
-    z-index: 100000;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap;
+    color: #c30d23;
     text-align: center;
+    line-height: 0.2rem;
+    vertical-align: middle;
+}
+.results span:nth-child(3){
+    width: 3.1rem;
+    height: 0;
+    border-top: 0.01rem solid #cccccc;
+    vertical-align: bottom;
+    margin-top: 0.1rem;
 }
 
 
-/* 轮播设置结束 */
+/* 搜索结果结束 */
 .main .contain{
     width: 100%;
 }

@@ -1,6 +1,9 @@
 /* .w{
     width: 7.5rem;
 } */
+body{
+    font-size: 0.14rem;
+}
 header{
     /* width: 7.5rem; */
     margin-top: 0.05rem;
@@ -48,6 +51,23 @@ header a:nth-child(4) img{
     width: 0.3rem;
     display: inline-block;
     margin-top: 0.1rem;
+}
+/* 导航按钮 */
+.Tnav{
+    width:0.5rem;
+    height: 0.5rem;
+    background-color: #f5f5f5;
+    text-align: center;
+    z-index: 10000000000;
+    position: absolute;
+    top: 0.5rem;
+    left: 7rem;
+}
+.Tnav a{
+    display: block;
+    font-size: 0.18rem;
+    border-bottom: 0.01rem solid #ffffff;
+    line-height: 0.25rem;
 }
 /* 搜索框 */
 .search{
@@ -282,7 +302,23 @@ div.yinc{
     font-size: 0.16rem;
     vertical-align: top;
 }
-
+/* 侧边导航按钮 */
+.Snav{
+    width:0.8rem;
+    height: 0.8rem;
+    background-color: #f5f5f5;
+    text-align: center;
+    z-index: 10000000000;
+    position: fixed;
+    top: 7rem;
+    left: 0.8rem;
+}
+.Snav a{
+    display: block;
+    font-size: 0.18rem;
+    border-bottom: 0.01rem solid #ffffff;
+    line-height: 0.4rem;
+}
 
 
 
