@@ -136,11 +136,11 @@ div.yinc{
 }
 .main .content{
     width: 100%;
-    font-size: 0.18rem;
+    font-size: 0.1rem;
     margin-top: 0.25rem;
     /* height: 1rem; */
     overflow: scroll;
-    background-color: red;
+    /* background-color: red; */
 }
 .main .statement{
     margin-top: 0.3rem;

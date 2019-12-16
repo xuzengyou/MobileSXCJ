@@ -304,6 +304,83 @@ div.yinc{
     font-size: 0.16rem;
     vertical-align: top;
 }
+
+/* 分页设置开始 */
+.main .fenye .m-style{
+    margin-left: 2.5rem;
+    margin-top: 0.5rem;
+}
+.m-style {
+    position: relative;
+    text-align: center;
+    zoom: 1;
+}
+
+.m-style:before,
+.m-style:after {
+    content: "";
+    display: table;
+}
+
+.m-style:after {
+    clear: both;
+    overflow: hidden;
+}
+
+.m-style span {
+    float: left;
+    margin: 0 0.05rem;
+    width: 0.38rem;
+    height: 0.38rem;
+    line-height: 0.38rem;
+    color: #bdbdbd;
+    font-size: 0.14rem;
+}
+
+.m-style .active {
+    float: left;
+    margin: 0 0.05rem;
+    width: 0.38rem;
+    height: 0.38rem;
+    line-height: 0.38rem;
+    background: #e91e63;
+    color: #fff;
+    font-size: 0.14rem;
+    border: 0.01rem solid #e91e63;
+}
+
+.m-style a {
+    float: left;
+    margin: 0 0.05rem;
+    width: 0.38rem;
+    height: 0.38rem;
+    line-height: 0.38rem;
+    background: #fff;
+    border: 1px solid #ebebeb;
+    color: #bdbdbd;
+    font-size: 0.14rem;
+}
+
+.m-style a:hover {
+    color: #fff;
+    background: #e91e63;
+}
+
+.m-style .next,
+.m-style .prev {
+    font-family: "Simsun";
+    font-size: 0.16rems;
+    font-weight: bold;
+}
+
+.now,
+.count {
+    padding: 0 0.05rem;
+    color: #f00;
+}
+
+/* 分页设置结束 */
+
 /* 侧边导航按钮 */
 .Snav{
     width:0.8rem;
